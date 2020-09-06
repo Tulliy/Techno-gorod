@@ -1,0 +1,44 @@
+#root > div {
+    height: 300px;
+    width: 1900px;
+    background: green;
+    position: relative;
+    animation-name: example;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes example {
+    0% {background-color: green;
+    height: 300px;
+    width: 1900px;
+    left: 0px;
+    top: 0px;
+}
+25% {background-color: turquoise;
+    height: 300px;
+    width: 1900px;
+    left: 0px;
+    top: 0px;
+}
+    50% {background-color: orange;
+        height: 300px;
+        width: 1900px;
+        left: 0px;
+        top: 0px;
+    }
+    75% {background-color: yellow;
+        height: 300px;
+        width: 1900px;
+        left: 0px;
+        top: 0px;
+    }
+    100% {background-color: green;
+        height: 300px;
+        width: 1900px;
+        left: 0px;
+        top: 0px;
+    }
+}

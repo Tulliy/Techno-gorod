@@ -9,24 +9,14 @@ document.addEventListener('DOMContentLoaded', function () {
         container.appendChild(card);
         const cardImg = document.createElement('img');
         cardImg.src = product.preview;
-        cardImg.width = '1900';
-        cardImg.height = '300';
-
-        card.classList = 'productItemSqare';
-        container.appendChild(cardd);
-        const cardImgSqare = document.createElement('img');
-        cardImgSqare.src = product.preview;
-        cardImgSqare.width = '500';
-        cardImgSqare.height = '500';
+        cardImg.width = '500';
+        cardImg.height = '500';
 
         const cardTitle = document.createElement('span');
         cardTitle.textContent = product.name;
         const cardPrice = document.createElement('span');
         cardPrice.textContent = product.price + " грн";
-        const cardOstalos = document.createElement('span');
-        cardOstalos.textContent = product.ostalos();
         card.appendChild(cardImg);
-        cardd.appendChild(cardImgSqare);
     }
 })
 const store = {
@@ -36,10 +26,9 @@ const store = {
             price: 100,
             kolichestvo: 125,
             prodano: 55,
-            preview: './images/гнгегегеге - Оформление YouTube-канала - Пользовательские размеры.jpeg',
-            ostalos: function () {
-                return this.kolichestvo - this.prodano;
-            },
+            preview: './images/photo_2020-08-23_13-40-08.jpg',
+
+
         },
 
         {
@@ -47,10 +36,9 @@ const store = {
             price: 100,
             kolichestvo: 125,
             prodano: 55,
-            preview: './images/photo_2020-08-23_13-40-42.jpg',
-            ostalos: function () {
-                return this.kolichestvo - this.prodano;
-            },
+            preview: './images/photo_2020-08-23_13-40-08.jpg',
+
+
         },
     ],
     country: "Ukraine",
