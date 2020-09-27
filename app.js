@@ -9,9 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
         container.appendChild(card);
         const cardImg = document.createElement('img');
         cardImg.src = product.preview;
-        cardImg.width = '500';
-        cardImg.height = '500';
-
         const cardTitle = document.createElement('span');
         cardTitle.textContent = product.name;
         const cardPrice = document.createElement('span');
@@ -36,7 +33,100 @@ const store = {
             price: 100,
             kolichestvo: 125,
             prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-30.jpg',
+
+
+        },
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-42.jpg',
+
+
+        },
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
             preview: './images/photo_2020-08-23_13-40-08.jpg',
+
+
+        },
+
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-30.jpg',
+
+
+        },
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-42.jpg',
+
+
+        },
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-08.jpg',
+
+
+        },
+
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-30.jpg',
+
+
+        },
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-42.jpg',
+
+
+        },
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-08.jpg',
+
+
+        },
+
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-30.jpg',
+
+
+        },
+        {
+            name: "Nagivka 100g",
+            price: 100,
+            kolichestvo: 125,
+            prodano: 55,
+            preview: './images/photo_2020-08-23_13-40-42.jpg',
 
 
         },

@@ -13,32 +13,67 @@
 @keyframes example {
     0% {background-color: green;
     height: 300px;
-    width: 1900px;
+    width: 100%;
     left: 0px;
     top: 0px;
 }
 25% {background-color: turquoise;
     height: 300px;
-    width: 1900px;
+    width: 100%;
     left: 0px;
     top: 0px;
 }
-    50% {background-color: orange;
-        height: 300px;
-        width: 1900px;
-        left: 0px;
-        top: 0px;
-    }
-    75% {background-color: yellow;
-        height: 300px;
-        width: 1900px;
-        left: 0px;
-        top: 0px;
-    }
-    100% {background-color: green;
-        height: 300px;
-        width: 1900px;
-        left: 0px;
-        top: 0px;
-    }
+50% {background-color: orange;
+    height: 300px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+75% {background-color: yellow;
+    height: 300px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+100% {background-color: green;
+    height: 300px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+}
+
+
+.productItem {
+display: flex;
+flex-direction: column;
+width: 400px;
+height: 400px;
+border: 3px solid black;
+margin: 10px
+}
+
+.productItem img{
+width: 400px;
+height: 400px;
+}
+
+#ProductContainer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.list{
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+}
+
+.list > li{
+margin: 30px
 }
